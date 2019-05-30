@@ -1,6 +1,8 @@
 # Interactive Canvas Testing Tool
 
-This is a monorepository containing the components (as submodules0 of a testing framework for Google [Interactive Canvas](https://developers.google.com/actions/interactivecanvas/) applications. The testing framework (which has two main pieces, a front-end and a middleware server) is one I developed during a recent project. The framework was found very useful in speeding up the development and deployment of both Interactive Canvas and Simple Response applications for Google Assistant (in general a given application will have both types of responses generated from the same backend).
+This is a monorepository containing the components (as git submodules) of a testing framework for Google [Interactive Canvas](https://developers.google.com/actions/interactivecanvas/) applications.
+
+The testing framework has two main pieces, a front-end and a middleware server. It is a refactored version of one I developed during a recent Interactive Canvas project. It was found very useful in speeding up the development, testing and deployment of both Interactive Canvas and Simple Response applications (in general a given application will have both types of responses generated from the same backend, with the Simple Response always as the fallback).
 
 The front-end component, called the Immersive Simulator is an Angular SPA web app that can be run on localhost, or any machine, such that it can connect to the middleware. The middleware component, called the Dialogflow Emulator, is a mock for the actual Dialogflow, with no AI-enabled features but providina mapping of queries to intents to enable the testing of all the features pertinent to both front-end and back-end use cases.
 
