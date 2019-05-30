@@ -1,6 +1,6 @@
 # Immersive Canvas Testing Tool
 
-This is a monorepository containing the components of a distributed testing framework for Google Immersive Canvas application, based one I developed during a recent Immersive Canvas project, and which was found very useful in speeding up the development and deployment of both Immersive Canvas and Simple Response applications for Google Assistant.
+This is a monorepository containing the components of a distributed testing framework for Google [Interactive Canvas](https://developers.google.com/actions/interactivecanvas/) application, based one I developed during a recent Immersive Canvas project, and which was found very useful in speeding up the development and deployment of both Immersive Canvas and Simple Response applications for Google Assistant.
 
 The two major components of the testing tool are submodules of this repository. One component is a Node Express app that can be run on localhost (or on Google App Engine) for testing. The other component is an Angular web app that can also be run on localhost, or any machine, where it can connect to the Node Express server for login and API purposes.
 
