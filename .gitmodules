@@ -1,0 +1,6 @@
+[submodule "immersive-simulator"]
+	path = immersive-simulator
+	url = https://github.com/matthew-trump/immersive-simulator
+[submodule "dialogflow-emulator"]
+	path = dialogflow-emulator
+	url = https://github.com/matthew-trump/dialogflow-emulator
