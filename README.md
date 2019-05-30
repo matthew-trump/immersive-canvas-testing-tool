@@ -1,4 +1,4 @@
-# Immersive Canvas Testing Tool
+# Interactive Canvas Testing Tool
 
 This is a monorepository containing the components of a distributed testing framework for Google [Interactive Canvas](https://developers.google.com/actions/interactivecanvas/) application, based one I developed during a recent Immersive Canvas project, and which was found very useful in speeding up the development and deployment of both Immersive Canvas and Simple Response applications for Google Assistant.
 
